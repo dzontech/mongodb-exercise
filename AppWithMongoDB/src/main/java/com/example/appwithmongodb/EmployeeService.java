@@ -19,7 +19,7 @@ public class EmployeeService {
     public void standardMethods() {
 
         //insert
-        Employee newEmp = new Employee(10, "Pera", 15000, "Zaklopaca");
+        Employee newEmp = new Employee(-1, "Pera", 15000, "Zaklopaca");
         newEmp = repo.save(newEmp);
         System.out.printf("Inserted new employee id %d:\n", newEmp.getEmployeeId());
 
