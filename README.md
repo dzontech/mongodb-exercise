@@ -1,1 +1,1 @@
-# MongoDBApp
+# mongodb-exercise
